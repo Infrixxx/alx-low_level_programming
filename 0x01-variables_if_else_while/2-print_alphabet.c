@@ -12,12 +12,12 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	while (ch <= 'z')
-
-	{
-		printf("%c", ch);
-		ch++;
-	}
-	return 0;
+    char alphabet = 'a';
+    while (alphabet <= 'z')
+    {
+putchar(alphabet);
+alphabet++;
+    }
+    putchar('\n');
+    return (0);
 }
