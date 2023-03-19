@@ -2,6 +2,7 @@
  * File: 101-print_comb4.c
  * Auth: Boitumelo C Rachoshi
  */
+#include <stdio.h>
 int main(void)
 { /* Declarations*/
 int d1;
