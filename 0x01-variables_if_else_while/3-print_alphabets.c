@@ -15,7 +15,7 @@ int main(void)
 char coh = 'a';
 char ch = 'A';
 
-while (coh <= 'z' )
+while (coh <= 'z')
 {
 putchar(coh);
 coh++;
