@@ -13,6 +13,7 @@
 int main(void)
 {
     char coh='a';
+    char ch='A';
     
     while(coh<='z')
     {
@@ -20,7 +21,7 @@ int main(void)
     coh++;
     }
     
-    char ch='A';
+    
     while(ch<='Z')
     {
     putchar(ch);
