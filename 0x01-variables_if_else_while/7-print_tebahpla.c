@@ -4,7 +4,6 @@
  * Auth: Brennan D Baraban
 =======
  * Auth: Boitumelo C Rachoshi
->>>>>>> 1feb6380d10352fd96f0925a8b16fd0c6c104bed
  */
 
 #include <stdio.h>
