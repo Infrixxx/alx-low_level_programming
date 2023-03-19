@@ -20,7 +20,7 @@ while (num < 10)
 	putchar((num % 10) + '0');
 	num++; }
 
-while ( letter <= 'f')
+while (letter <= 'f')
 {	putchar(letter);
 	letter++; }
 
