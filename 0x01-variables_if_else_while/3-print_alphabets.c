@@ -15,14 +15,14 @@ int main(void)
 char coh = 'a';
 char ch = 'A';
 
-while(coh < = 'z')
+while(coh<='z')
 {
 putchar(coh);
 coh++;
 }
 
 
-while(ch < = 'Z')
+while(ch<='Z')
 {
 putchar(ch);
 ch++;
