@@ -18,7 +18,7 @@ int main(void)
 {
 char lt = 'z';
 
-while(lt > 'a'-1)
+while(lt > 'a' -1)
 {
 putchar(lt);
 lt--;
