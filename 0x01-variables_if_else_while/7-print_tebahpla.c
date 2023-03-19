@@ -8,6 +8,12 @@
 #include <stdio.h>
 /* 7. Smile in the mirror*/
 
+/**
+ * main - Prints the lowercase alphabet in reverse.
+ *
+ * Return: Always 0.
+ */
+
 int main(void)
 {
     char lt='z';
