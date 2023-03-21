@@ -1,22 +1,25 @@
-#include<stdio.h>
-#include<main.h>
+#include <main.h>
 /*
+ * Author:BC Rachoshi
  *
- *Author  : BC Rachoshi
- *Date : 20/03/2023
  *
- *0-putchar.c
+ *
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
-/*
- * program that prints _putchar, followed by a new line
- *
- *
- * main is the entry point */
-
 int main(void)
 {
-	puts("_putchar")
-		return(0)
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
 
