@@ -1,8 +1,7 @@
 /*
  * File: 5-sign.c
  * Auth: Boitumelo Rachoshi
- *
- * /
+ */
  
 #include "main.h"
 
@@ -25,7 +24,7 @@ int print_sign(int n)
 		_putchar(' 0 ');
 		return(0);
 	}
-	else (n < 0)
+	else 
 	{
 		_putchar(' - ');
 		return(-1);
