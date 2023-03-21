@@ -1,4 +1,4 @@
-#inclue <unistd.h>
+#include <unistd.h>
 /**
  * We create a function that take one argument and writes it to standard output
  * _putchar writes character a to standart output(stdout)
