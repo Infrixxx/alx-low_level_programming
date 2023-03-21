@@ -4,11 +4,12 @@
  * 4-isalpha.c
  */
 
+#include "main.h"
 /*
  * _isalpha - checks for alphabetic character.
- *
- * Returns 1 if c is a letter, lowercase or uppercase
- * Returns 0
+ *@c: The character to be checked.
+ * 
+ * Returns 1 if c is a letter, lowercase or uppercase. Returns 0 otherwise.
  */
 int _isalpha(int c)
 {
