@@ -9,8 +9,8 @@
  *
  * Returns 1 if c is a letter, lowercase or uppercase
  * Returns 0
- * */
-
+ *
+ */
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || 
