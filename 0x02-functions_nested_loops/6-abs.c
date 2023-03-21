@@ -6,7 +6,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _abs(int n) - computes the absolute value of an integer
+ * _abs - computes the absolute value of an integer
  * @n: The integer to be computed.
  *
  * Return: The absolute value of the integer.
