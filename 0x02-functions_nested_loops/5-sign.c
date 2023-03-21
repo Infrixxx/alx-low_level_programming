@@ -2,7 +2,6 @@
  * File: 5-sign.c
  * Auth: Boitumelo Rachoshi
  */
- 
 #include "main.h"
 
 /**
