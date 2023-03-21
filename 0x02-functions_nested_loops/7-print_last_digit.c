@@ -2,7 +2,7 @@
  * File: 7-print_last_digit.c
  * Auth: Boitumelo Rachoshi
  */
-
+#include "main.h"
 /**
  * print_last_digit - prints the last digit of a number
  * @n : The number of which the last digit will be printed.
