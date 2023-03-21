@@ -1,14 +1,12 @@
 #include "main.h"
 /*
  * Author:BC Rachoshi
- *
+ *0-putchar.c
  *
  */
 
-
-/*
- * main - Entry point
- *
+/**
+ * main -  prints _putchar, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
