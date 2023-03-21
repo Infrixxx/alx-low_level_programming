@@ -1,6 +1,5 @@
 /*
  *Auth : BC Rachoshi
- *
  * 4-isalpha.c
  */
 
