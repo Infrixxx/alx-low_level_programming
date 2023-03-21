@@ -12,18 +12,15 @@
 
 void print_alphabet_x10(void)
 {
-	int n=0;
-	char a='a';
+	char a;
+	int n;
 
-	while (n < 11)
+	for (n=1; n<=10; n++)
+	{
+		for (a='a'; a <= 'z'; a++)
 		{
-			while ('a' <= 'z')
-			{
-				_putchar('a');
-				a++;
-			}
-			n++;
+			_putchar(a;
 		}
-	_putchar('\n');
-
+		_putchar('\n');
+	}
 }
