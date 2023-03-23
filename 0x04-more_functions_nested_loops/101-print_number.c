@@ -10,11 +10,11 @@ include "main.h"
  */
 void print_number(int n)
 {
-	unsigned int i = n;
+	unsigned int i;
 
 	if (n < 0)
 	{
-		_putchar(45);
+		_putchar('-');
 		i = -i;
 	}
 	if (i / 10)
