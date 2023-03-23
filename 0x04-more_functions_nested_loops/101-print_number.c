@@ -1,46 +1,47 @@
 include "main.h"
 
+
 /**
- * print_number -  checks for checks for a digit (0 through 9).
- * @n: n -  Variable
- * Return: Always 0.
+ * print_number - Function that prints an integer.
+ * @n: int type number
  */
 void print_number(int n)
 {
-	unsigned int z;
-	int m, b;
+	long a; /* power of 10 */
+	int b; /* boolean check */
+	long c; /* convert int to long */
 
-	b = 10;
-
-	if (n < 10 && n >= 0)
+	c = n;
+	/* negatives */
+	if (c < 0)
 	{
-		_putchar (n + '0');
-	}
-	else if (n > -10 && n < 0)
-	{
-		n = n - 2 * n;
+		c *= -1;
 		_putchar('-');
-		_putchar (n + '0');
 	}
 
-	else
+	/* count up */
+	m = 1;
+	b = 1;
+	while (b)
 	{
-		if (n < 0)
+		if (c / (a * 10) > 0)
+			a *= 10;
+		else
+			b = 0;
+	}
+
+	/* count down */
+	while (c >= 0)
+	{
+		if (a == 1)
 		{
-			n = n * -1;
-			_putchar ('-');
+			_putchar(c % 10 + '0');
+			c = -1;
 		}
-		z = n;
-	while (z / b > 9)
-	{
-		b = b * 10;
-	}
-	while (b > 0)
-	{
-		m = z / b;
-		z = z % b;
-		_putchar (m + '0');
-		b = b / 10;
-	}
+		else
+		{
+			_putchar((c / a % 10) + '0');
+			m /= 10;
+		}
 	}
 }
