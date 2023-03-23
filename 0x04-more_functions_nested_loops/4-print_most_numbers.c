@@ -18,9 +18,14 @@ void print_numbers(void)
 
 	for (j = 48; j < 58; j++)
 	{
-		if (j != 50 || j != 52)
-			continue;
-		_putchar(j);
+		if (j != 50)
+		{
+			if (j != 52)
+			{
+			_putchar(j);
+			}
+		}
+		
 	}
 	_putchar('\n');
 }
