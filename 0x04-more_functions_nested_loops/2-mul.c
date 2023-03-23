@@ -14,9 +14,10 @@
 */
 int mul(int a, int b)
 {
-int  multiply;
 
-multiply = a * b;
+	int mul;
 
-return ( multiply);
+	mul = a * b;
+
+	return (mul);
 }
