@@ -14,7 +14,8 @@
  */
 void print_numbers(void)
 {
-int j = 0;
+int j;
+j= 0;
 while(j<10)
 {_putchar(j);
 j++;
