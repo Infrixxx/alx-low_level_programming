@@ -18,8 +18,8 @@ void print_numbers(void)
 
 	for (j = 48; j < 58; j++)
 	{
-		if (a = 2 || a = 4)
-				continue;
+		if (a != 2 || a != 4)
+			continue;
 		_putchar(j);
 	}
 	_putchar('\n');
