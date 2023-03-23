@@ -12,11 +12,11 @@
  */
 void print_numbers(void)
 {
-int j;
-j= 0;
-while(j<10)
-{_putchar(j);
-j++;
-}
-_putchar('\n');
+	int j;
+
+	for (j = 48; j < 58; j++)
+	{
+		_putchar(j);
+	}
+	_putchar('\n');
 }
