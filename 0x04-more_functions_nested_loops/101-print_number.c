@@ -3,43 +3,44 @@ include "main.h"
 /**
  * print_number - Function that prints an integer.
  * @n: int type number
+ * Description: Can only use _putchar to print.
  */
 void print_number(int n)
 {
-	long a; /* power of 10 */
-	int b; /* boolean check */
-	long c; /* convert int to long */
+	long m; /* power of 10 */
+	int c; /* boolean check */
+	long num; /* convert int to long */
 
-	c = n;
+	num = n;
 	/* negatives */
-	if (c < 0)
+	if (num < 0)
 	{
-		c *= -1;
+		num *= -1;
 		_putchar('-');
 	}
 
 	/* count up */
 	m = 1;
-	b = 1;
-	while (b)
+	c = 1;
+	while (c)
 	{
-		if (c / (a * 10) > 0)
-			a *= 10;
+		if (num / (m * 10) > 0)
+			m *= 10;
 		else
-			b = 0;
+			c = 0;
 	}
 
 	/* count down */
-	while (c >= 0)
+	while (num >= 0)
 	{
-		if (a == 1)
+		if (m == 1)
 		{
-			_putchar(c % 10 + '0');
-			c = -1;
+			_putchar(num % 10 + '0');
+			num = -1;
 		}
 		else
 		{
-			_putchar((c / a % 10) + '0');
+			_putchar((num / m % 10) + '0');
 			m /= 10;
 		}
 	}
