@@ -20,7 +20,7 @@ void print_numbers(void)
 		{
 			if (j != 4)
 			{
-			_putchar(j);
+			_putchar(j+'0');
 			}
 		}
 	}
