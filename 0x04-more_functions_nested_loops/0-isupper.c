@@ -3,7 +3,7 @@
  * File : 0-isupper.c
  */
 
-#include "mainn.h"
+#include "main.h"
 
 /**
  * _isupper - Checks for uppercase characters.
