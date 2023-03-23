@@ -19,5 +19,5 @@ while(j<10)
 j++;
 }
 _putchar('\n')
-return(0)
+
 }
