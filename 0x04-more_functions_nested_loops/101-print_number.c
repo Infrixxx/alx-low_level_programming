@@ -11,9 +11,13 @@ include "main.h"
  */
 void print_number(int n)
 {
+<<<<<<< HEAD
 	long m; /* power of 10 */
 	int c; /* boolean check */
 	long num; /* convert int to long */
+=======
+	unsigned int num = n;
+>>>>>>> 63dc05d11e75a3b99ed435b3a8e1fc78555dc9c0
 
 	num = n;
 	/* negatives */
@@ -21,6 +25,7 @@ void print_number(int n)
 	{
 		num *= -1;
 		_putchar('-');
+<<<<<<< HEAD
 	}
 
 	/* count up */
@@ -48,4 +53,13 @@ void print_number(int n)
 			m /= 10;
 		}
 	}
+=======
+		num = -num;
+	}
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
+>>>>>>> 63dc05d11e75a3b99ed435b3a8e1fc78555dc9c0
 }
