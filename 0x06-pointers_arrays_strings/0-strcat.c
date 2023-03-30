@@ -3,30 +3,27 @@
  * file : 0-strcat.c
  */
 
-#include "main.h"
+#include "holberton.h"
+
 /**
- * _strcat - concatenates two strings
- * @dest: input value
- * @src: input value
+ *_strcat - Write a function that concatenates two strings.
  *
- * Return: void
+ *@dest: This is the output dest
+ *@src: This is the input source
+ *
+ * Return: This return to dest, that concatenates two strings
  */
+
 char *_strcat(char *dest, char *src)
 {
-int a,b;
+	int i, j;
 
-a = 0;
-while (dest[a] != '\0')
-{
-a++;
-}
-b = 0;
-while (src[b] != '\0')
-{
-dest[a] = src[b];
-a++;
-b++;
-}
-dest[a] = '\0';
-return (dest);
+	for (i = 0; dest[i] != '\0'; i++)
+		;
+	for (j = 0; src[j] != '\0'; j++)
+	{
+		dest[i] = src[j];
+		i++;
+	}
+	return (dest);
 }
