@@ -1,22 +1,30 @@
 #include "main.h"
-/**
- * print_number - prints an integer
- * @n:.input integer parameter
- *
- *
- */
-void print_number(int n)
-{
-	unsigned int i = n;
+#include <stdio.h>
 
-	if (n < 0)
+/**
+ * rot13 - encoder rot13
+ * @s: pointer to string params
+ *
+ * Return: *s
+ */
+
+char *rot13(char *s)
+{
+	int i;
+	int j;
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		_putchar(45);
-		i = -i;
+		for (j = 0; j < 52; j++)
+		{
+			if (s[i] == data1[j])
+			{
+				s[i] = datarot[j];
+				break;
+			}
+		}
 	}
-	if (i / 10)
-	{
-		print_number(i / 10);
-	}
-	_putchar(i % 10 + '0');
+	return (s);
 }
