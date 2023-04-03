@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * _strchr - Returns a pointer to the first occurrence of the character c in the string s, or NULL
+ * _strchr - finds if char occurs in string
  *
- * @s: string to be checked
+ * @s: string to check
  * @c: character to find in s
  *
  * Return: pointer to first instance of c, otherwise NULL
