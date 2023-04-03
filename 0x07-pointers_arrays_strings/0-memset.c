@@ -1,4 +1,6 @@
 /**
+ * Auth : Boitumelo C Rachoshi
+ * file : 0-memset.c
  * _memset - fills n bytes of memory
  *
  * @s: pointer to start of memory area
