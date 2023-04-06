@@ -1,8 +1,3 @@
-/**
- * Auth : Boitumelo C Rachoshi
- * File : 1-print_rev_recursion.c
- * Date : 06/04/2023
- */
 #include "main.h"
 /**
  * _print_rev_recursion - prints a string in reverse
