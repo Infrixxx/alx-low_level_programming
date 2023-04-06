@@ -6,7 +6,6 @@
  * @s2: pointer to second string 
  * Return: 1 identical, 0 else.
  */
-
 int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0')
