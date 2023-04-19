@@ -1,14 +1,15 @@
 #include "main.h"
-
 /**
- *print_name - function that prints a name
- *@name : name of user
- *@f : function
+ * print_name - prints a name
+ * @name: pointer to the name to print
+ * @f: pointer to a function that takes a string argument and returns void
+ *
+ * Return: void
  */
-
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL || f == NULL)
-		return;
-	f(name)
+	if (name != NULL && f != NULL)
+	{
+		f(name);
+	}
 }
