@@ -1,15 +1,19 @@
+global _start
+
 section .data
-  message db "Hello, Holberton", 0
-  format db "%s\n", 0
+    message db 'Hello, Holberton',10
 
 section .text
-  global main
-  extern printf
+_start:
+    ; set up arguments for printf
+    xor eax, eax
+    lea rdi, [message]
 
-main:
-  push message
-  push format
-  call printf
-  add rsp, 16
-  mov eax, 0
-  ret
+    ; call printf
+    mov eax, 0
+    call printf
+
+    ; exit program
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
