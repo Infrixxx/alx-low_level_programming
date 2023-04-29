@@ -1,6 +1,6 @@
-#ifndef _LISTS_H
-#define _LISTS_H
-
+#ifndef _LIST_H_
+#define _LIST_H_
+#include <stdio.h>
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -8,7 +8,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for Coding project
  */
 typedef struct list_s
 {
@@ -23,4 +23,5 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
+char *_strdup(const char *str);
 #endif
