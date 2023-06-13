@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strdup -returns a pointer to a newly allocated space in memory.
+ * _strdup - returns a pointer to a newly allocated space in memory.
  * @str : sring to be copied.
  * Return : char pointer to malloc created memory address
  */
