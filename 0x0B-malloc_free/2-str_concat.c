@@ -25,10 +25,8 @@ char *str_concat(char *s1, char *s2)
 	b++;
 
 	s = malloc((a * sizeof(*s1)) + (b * sizeof(*s2)));
-	
 	if (s == 0)
 		return (NULL);
-	
 	for (c = 0, d = 0; c < a + b; c++)
 	{
 		if (c < a)
@@ -36,6 +34,5 @@ char *str_concat(char *s1, char *s2)
 		else
 			s[c] = s2[d++];
 	}
-	
 	return (s);
 }
