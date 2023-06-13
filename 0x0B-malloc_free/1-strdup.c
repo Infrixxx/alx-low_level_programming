@@ -3,7 +3,7 @@
 /**
  * _strdup - returns a pointer to a newly allocated space in memory.
  * @str : sring to be copied.
- * Return : char pointer to malloc created memory address
+ * Return: char pointer to malloc created memory address
  */
 
 char *_strdup(char *str)
