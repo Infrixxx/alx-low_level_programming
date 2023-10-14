@@ -1,4 +1,12 @@
 #!/bin/bash
+gcc -fPIC -c *.c
+gcc -shared -o liball.so *.o
 
-# Compile all .c files into a dynamic library named liball.so
-gcc -shared -o liball.so -fPIC *.c
+# Check for compilation errors
+if [ $? -eq 0 ]; then
+  echo "All functions found :)"
+  exit 0
+else
+  echo "Compilation failed :("
+  exit 1
+fi
