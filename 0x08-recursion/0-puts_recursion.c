@@ -6,10 +6,10 @@
  */
 void _puts_recursion(char *s)
 {
-	if (*s != '\0') //base case, when s reaches null terminator.
+	if (*s != '\0') /*base case, when s reaches null terminator.*/
 	{
-		_putchar(*s); //prints current character
-		_puts_recursion(s + 1); //recursion call for remaining characters
+		_putchar(*s); /*prints current character*/
+		_puts_recursion(s + 1); /*recursion call for remaining characters*/
 	}
 
 	else
